@@ -17,5 +17,6 @@ WHERE author_name NOT LIKE '% %' ;
 -- 2.6
 SELECT song_name FROM Songs
 WHERE song_name LIKE '%Me%';
-
+SELECT song_name FROM Songs
+WHERE song_name LIKE '%You%';
 
