@@ -1,4 +1,4 @@
-
+﻿
 --Ввод данных по исполнителям:
 
 INSERT INTO Authors (author_name)
@@ -6,7 +6,7 @@ VALUES 	('Bring Me the Horizon'),
 		('Burzum'),
 		('Placebo'),
 		('As cities Burn'),
-		('nothing,nowhere'),
+		('nothing,nowhere.'),
 		('Solstafir'),
 		('Napalm Death'),
 		('Architects');
@@ -23,7 +23,7 @@ VALUES 	('That is the Spirit', 2021),
 		('Svartir Sandar', 2006),
 		('Scum', 2002);
 		
-	--Ввод данных по жанрам:
+--Ввод данных по жанрам:
 
 INSERT INTO Genres (genre_name)
 VALUES 	('Post-hardcore'),
@@ -51,7 +51,7 @@ VALUES 	(1, 'Throne', '00:03:07'),
 		(8, 'You Suffer', '00:05:01'),
 		(2, 'Det Som en Gang Var', '00:03:38');
 		
-	--Ввод данных по альбомам:
+--Ввод данных по альбомам:
 
 INSERT INTO Collections (collection_name, collection_year)
 VALUES 	('Music_Collections_2016', 2016),
