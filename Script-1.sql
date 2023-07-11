@@ -1,4 +1,3 @@
-
 CREATE TABLE IF NOT EXISTS Collections (
 	id SERIAL PRIMARY KEY,
 	collection_name varchar(100) NOT NULL,
